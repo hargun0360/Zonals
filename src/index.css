@@ -11,3 +11,289 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar1{
+  background: #2E435C;
+  margin-bottom: -2.5%;
+  height: 10%;
+  position:fixed;
+  padding: 5px 0 5px 0;
+  width: 100vw;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar1>div{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.hamburger1{
+  display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  float: right;
+  cursor: pointer;
+}
+
+.register{
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  position: absolute;
+  top: 25%;
+}
+a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.mobile-links{
+  visibility: hidden;
+}
+
+@media screen and (max-width:710px){
+  .register{
+    display: none;
+  }
+
+  .links{
+    visibility: hidden;
+  }
+  
+  .hamburger1{
+    display: block;
+    float: right;
+  }
+  .mobile-links{
+    display: flex;
+    visibility: visible;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: #040404;
+    z-index: 2;
+    box-shadow: 0px 7px 12px -2px rgba(0,0,0,0.69);
+    list-style: none;
+  }
+
+}
+
+@media screen and (max-width:440px){
+
+  .logo-image{
+      width: 180px;
+      height: 100%;
+  }
+ 
+}
+/* -------------------------------------------------------------------- */
+
+
+
+/* @media only screen and (max-width:1874px){
+  .imgframe>div {
+    width: 250px;
+  }
+}
+@media only screen and (max-width:1563px){
+  .imgframe>div{
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width:1324px){
+  .imgframe>div {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width:1064px){
+  .navbar1, .navfix{
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width:850px){
+  .imgmain>h1{
+    padding-top: 20%;
+  }
+  .committee-table{
+    width: 100%;
+  }
+  .committee-content, .committee-table{
+    font-size: 24px;
+  }
+}
+
+
+
+@media only screen and (max-width:700px){
+  .contact div>div{
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width:690px){
+  .imgmain>h1{
+    font-size: 40px;
+  }
+  .callForPapers span{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:660px){
+  .aboutAkg>div{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:605.5px){
+  .committee-table,.committee-content{
+    font-size: 20px;
+  }
+  .hamburger1{
+    display: inline-block;
+    margin-top: -123px;
+  }
+  .webLinks{
+    visibility:hidden;
+  }
+  .navbar1, .navfix{
+    height: 40px;
+  }
+  .imgmain{
+    background-size: cover;
+    background-position: 65% 0%;
+  }
+  .imgmain p{
+    background-color: #04040435;
+    color: white;
+  }
+  .heading{
+    font-size: 28px;
+  }
+  .footer1 {
+    font-size: 12px;
+  }
+  .footer1>h1{
+    font-size: 24px;
+  }
+  .imgframe img{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width:581.5px){
+  .hamburger1{
+    margin-top: -130px;
+  }
+}
+
+/* @media only screen and (max-width:515px){
+  .hamburger1{
+    margin-top: -120px;
+  }
+} */
+
+
+/* @media only screen and (max-width:490px){
+  .imgmain h1{
+    font-size: 36px;
+  }
+  .hamburger1{
+    margin-top: -128px;
+  }
+}
+@media only screen and (max-width:460px){
+  .top>p{
+    margin-left: 2.5%;
+  }
+}
+@media only screen and (max-width:430px){
+  .contact div>div{
+    width: 80%;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width:406px){
+  .hamburger1{
+    margin-top: -168px;
+  }
+  .hamMenu1{
+    margin-top: -130px;
+  }
+}
+
+@media only screen and (max-width:386px){
+  .hamburger1{
+    margin-top: -165px;
+  }
+  .top p,.topfix{
+    width: 300px;
+    height:80px;
+  }
+  .hamMenu1{
+    margin-top: -130px;
+  }
+  .imgmain h1{
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width:376px){
+  .hamburger1{
+    margin-top: -210px;
+  }
+  .hamMenu1{
+    margin-top: -175px;
+  }
+} */
+
+/* @media only screen and (max-width:365px){
+  .hamburger1{
+    margin-top: 0px;
+  }
+} */
+
+/* @media only screen and (max-width:363.5px){
+  
+  .hamburger1{
+    margin-top: -217px;
+  }
+  .softInc{
+    font-size: 10px;
+  }
+  .hamMenu1{
+    margin-top: -185px;
+  }
+} */
+
+
+/* @media only screen and (max-width:359.9px){
+  .hamburger1{
+    margin-top: -px;
+  }
+} */ 
