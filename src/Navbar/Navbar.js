@@ -24,11 +24,6 @@ const Navbar = () => {
                     <Link to="/#call" spy={true} smooth={true}>Categories</Link>
                     <Link to="/#committee" spy={true} smooth={true}>Organizers</Link>
                     <Link to="/#keynote" spy={true} smooth={true}>Contact Us</Link>
-                    <Link to="/important-dates" spy={true} smooth={true}>
-                        <div className='register'>
-                            Register
-                        </div>
-                    </Link>
                 </div>}
                 <button className="hamburger1"> {isOpen ? <MenuOpenIcon onClick={(e)=>setIsOpen(false)} fontSize="large" /> : <MenuIcon onClick={(e)=>setIsOpen(true)}  fontSize='large' />}</button>
                 {isOpen && <div className='mobile-links'>
@@ -37,11 +32,6 @@ const Navbar = () => {
                     <Link   to="/#call" spy={true} smooth={true}><motion.li initial={animateFrom} animate={animateTo} transition={{delay:0.15}}>Categories</motion.li></Link>
                     <Link to="/#committee" spy={true} smooth={true}><motion.li initial={animateFrom} animate={animateTo} transition={{delay:0.20}}  >Organizers</motion.li></Link>
                     <Link   to="/#keynote" spy={true} smooth={true}><motion.li initial={animateFrom} animate={animateTo} transition={{delay:0.25}}>Contact Us</motion.li></Link>
-                    <Link   to="/important-dates" spy={true} smooth={true}>
-                        <div className='register'>
-                            Register
-                        </div>
-                    </Link>
                 </div>}
             </div>
             <div className='navfix'>.</div>
