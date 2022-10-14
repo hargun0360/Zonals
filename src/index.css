@@ -1,6 +1,11 @@
+@font-face {
+  font-family: Gilroy;
+  src: url('./Home/gilory.ttf')  format('truetype');
+  font-weight: bolder;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:Gilroy, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,7 +13,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Gilroy,source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
@@ -53,10 +58,10 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
-  position: absolute;
-  top: 25%;
+  font-weight: 900;
+  cursor: pointer;
 }
+
 a{
   color: white;
   text-decoration: none;
@@ -128,6 +133,83 @@ a:hover{
   
 }
 
+.Bg-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.514)),url('./Home/tenis.svg');
+  /* background-image: url('./Home/tenis.svg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.full-info{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Main-Heading{
+  display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: fit-content;
+    padding: 40px 0px 0px 0px; 
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.prize{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 90vh;
+}
+
+.image{
+  height: 270px;
+  width: 270px;
+}
+
+
+
+.dates{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.Main-Heading > h1, .Main-Heading>p{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.Main-Heading>p{
+  padding: 15px 0px ;
+}
+
+
+.text > h1 , .Main-Heading > h1{
+  color: white;
+  font-size: 45px;
+}
+.Main-Heading > h1{
+  color: white;
+  font-size: 40px;
+}
+
 @media screen and (max-width:710px){
 
   .links{
@@ -160,9 +242,69 @@ a:hover{
     flex-wrap: wrap;
       flex-direction: coloum;
   }
-  
+
+  .text > h1 , .Main-Heading > h1{
+    color: white;
+    font-size: 31px;
+  }
+  .Main-Heading > h1{
+    color: white;
+    font-size: 23px;
+  }
+  .image > img {
+    height: 429px;
+    width: 189px;
+}
+
+.details{
+  width: 100vw;
+}
+.prize{
+  width: 35vw;
+}
+
 
 }
+
+ @media screen and (max-width:560px){
+
+  .text > h1 , .Main-Heading > h1{
+    color: white;
+    font-size: 18px;
+  }
+  .Main-Heading > h1 , .Main-Heading > p{
+    color: white;
+    font-size: 18px;
+  }
+
+  .Main-Heading > p{
+    color: white;
+    font-size: 14px;
+  }
+  .image > img {
+    height: 429px;
+    width: 189px;
+}
+
+.details{
+  width: 100vw;
+}
+.prize{
+  width: 35vw;
+}
+
+
+}
+/*
+@media screen and (max-width:460px){
+
+  .Bg-image{
+    background-size: cover;
+    height: 42vh;
+  }
+
+ 
+} */
 
 @media screen and (max-width:440px){
 
@@ -178,8 +320,9 @@ a:hover{
 
 @media screen and (max-width:340px){
 
-  .text{
-    font-size: 14px;
-  }
+  .image > img {
+    height: 425px;
+    width: 145px;
+}
  
 }
