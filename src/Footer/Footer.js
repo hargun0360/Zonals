@@ -18,7 +18,7 @@ const Footer = () => {
                             <MapsHomeWorkIcon fontSize='large'></MapsHomeWorkIcon>
                         </div>  
                         <div className='text'>
-                            <p>AJAY KUMAR GARG ENGINEERING COLLEGE</p>
+                            <a href="https://www.akgec.ac.in/" target={"_blank"} ><p>AJAY KUMAR GARG ENGINEERING COLLEGE</p></a>
                         </div>
                     </div>
                     <div className='college-address'>
@@ -30,7 +30,7 @@ const Footer = () => {
                             <p>ADHYATMIK NAGAR GHAZIABAD - 201009</p>
                         </div>
                     </div>
-                    <div className='mobile-number'>
+                    <div className='mobile-number' id='contact-us'>
                         <div className='icon'>
                             <LocalPhoneIcon fontSize='large'></LocalPhoneIcon>
                         </div>
@@ -43,9 +43,9 @@ const Footer = () => {
                             <WebIcon fontSize='large'></WebIcon>
                         </div>
                         <div className='text'>
-                            <p>
+                            <a href = "https://www.akgec.ac.in/life-akgec/events/sports-events/tt-tournament/" target={"_blank"} ><p>
                                 <span style={{cursor:"pointer"}} >www.akgec.in/tabletennistournament</span>
-                            </p>
+                            </p></a>
                         </div>
                     </div>
                 </div>

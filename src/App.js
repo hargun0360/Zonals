@@ -6,10 +6,6 @@ function App() {
     <div className="App">
       <Routes>
       <Route exact path="/" element={<Home />}/>
-      {/* <Route exact path="/about" element={<About/>}/>
-      <Route exact path="/registration" element={<Registration/>}/>
-      <Route exact path="/important-dates" element={<ImpDates/>}/>
-      <Route exact path="/programme-committee" element={<Committee/>}/> */}
     </Routes>
     </div>
   );

@@ -10,7 +10,7 @@ const Home = () => {
         <div className='Home'>
             <Navbar />
             <br></br>
-            <div className='Bg-image'>
+            <div className='Bg-image' id="home">
                 <div className="full-info">
                     <div className='details'>
                         <div className='Main-Heading'>
@@ -50,7 +50,7 @@ const Home = () => {
             </div>
         </div>
         <div className='content'>
-            <div className='about'>
+            <div className='about' id="about">
                 <div className='about-us-heading'>
                     <h1>About Us</h1>
                 </div>
@@ -64,7 +64,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className='category-content'>
+        <div className='category-content' id="categories">
             <div className='about'>
                 <div className='category-heading'>
                     <h1>Categories</h1>
@@ -116,7 +116,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className='organiser'>
+        <div className='organiser' id="organizers">
             <div className='organizing-committee'>
                 <div className='heading'>
                     <h1>Organizing Committee</h1>
@@ -146,7 +146,7 @@ const Home = () => {
                                 <div className='student-name'>
                                     Umang Gupta
                                 </div>
-                                <div style={{paddingLeft:"5px",fontFamily:"Gilroy",fontWeight:"400",fontSize:"17px",lineHeight:"24px",paddingTop:"4px"}}>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
                                     (8077121060)
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ const Home = () => {
                                 <div>
                                     Srijan Singh
                                 </div>
-                                <div style={{paddingLeft:"5px",fontFamily:"Gilroy",fontWeight:"400",fontSize:"17px",lineHeight:"24px",paddingTop:"4px"}}>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
                                     (7258869864)
                                 </div>
                             </div>
@@ -166,7 +166,7 @@ const Home = () => {
                                 <div>
                                     Abhiroop Tomar
                                 </div>
-                                <div style={{paddingLeft:"5px",fontFamily:"Gilroy",fontWeight:"400",fontSize:"17px",lineHeight:"24px",paddingTop:"4px"}}>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
                                     (981078229)
                                 </div>
                             </div>
@@ -184,7 +184,10 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <Footer />
+        <div>
+            <Footer />
+        </div>
+
     </>
     )
 }

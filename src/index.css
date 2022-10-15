@@ -67,11 +67,18 @@ code {
 a {
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 1rem;
 }
 
 a:hover {
   cursor: pointer;
+  padding-bottom: 12px;
+  font-weight: 900;
+}
+
+.active{
+  padding-bottom: 12px;
+  font-weight: 900;
 }
 
 .mobile-links {
@@ -93,12 +100,14 @@ a:hover {
   padding: 15px 0px;
   width: 100vw;
   padding-left: 6%;
+  font-family: 'Gilroy';
 }
 
 .contact-us-details {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  font-family: 'Gilroy';
 }
 
 .college-name,
@@ -117,11 +126,13 @@ a:hover {
 
 .contact-heading>h1 {
   color: white;
+  font-family: 'Gilroy';
 }
 
 .text>p,
 .icon {
   color: white;
+  font-family: 'Gilroy';
 }
 
 .QR-50 {
@@ -147,6 +158,10 @@ a:hover {
   height: 100vh;
   position: relative;
   overflow: hidden;
+}
+
+.college-name > .text {
+  cursor: pointer;
 }
 
 .full-info {
