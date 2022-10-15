@@ -605,16 +605,17 @@ color: #212427;
     /* background-image: url('./Home/tenis.svg'); */
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 37vh;
     position: relative;
     overflow: hidden;
   }
 
   .Main-Heading{
     position: absolute;
-    top: 3%;
+    top: 10%;
     width: 100vw;
     left: 4%;
+    padding: 69px 5px;
   }
 }
 
