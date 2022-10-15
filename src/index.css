@@ -250,16 +250,20 @@ a:hover {
 }
 
 .about-us-heading>h1,
-.category-heading>h1 {
+.category-heading>h1,
+.heading>h1,
+.heading-student>h1 {
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 800;
-  font-size: 48px;
+  font-size: 42px;
   line-height: 60px;
 }
 
 .about-us-heading>h1::after,
-.category-heading>h1::after {
+.category-heading>h1::after,
+.heading>h1::after,
+.heading-student>h1::after {
   content: '';
   display: block;
   position: absolute;
@@ -286,7 +290,7 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.listed-data>ul>li {
+.listed-data {
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 500;
@@ -307,6 +311,46 @@ a:hover {
 
 .category-heading > h1{
   margin-left: 86px;
+}
+
+.organiser{
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.arrange{
+  display: flex;
+  align-items: center;
+}
+
+.student-list{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 39px;
+/* identical to box height */
+
+letter-spacing: 0.0075em;
+
+color: #212427;
+  
+}
+
+.committee-list{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 39px;
+
+letter-spacing: 0.0075em;
+
+color: #212427;
 }
 
 
@@ -451,17 +495,6 @@ a:hover {
 
 }
 
-/*
-@media screen and (max-width:460px){
-
-  .Bg-image{
-    background-size: cover;
-    height: 42vh;
-  }
-
- 
-} */
-
 @media screen and (max-width:440px) {
 
   .logo-image {
@@ -477,18 +510,41 @@ a:hover {
     width: 80vw;
   }
 
-  .about-us-heading>h1 , .category-heading>h1 {
+  .about-us-heading>h1 , .category-heading>h1, .heading>h1 , .heading-student>h1 {
     font-size: 36px;
+  }
+
+  .heading>h1 , .heading-student>h1 {
+    font-size: 30px;
+  }
+
+  .heading-student>h1 {
+    font-size: 32px;
+  }
+
+  .organizing-committee,.student{
+      width: 100vw;
   }
 
   .about {
     align-items: normal;
   }
 
-  .about-us-heading>h1::after {
+  .about-us-heading>h1::after, .category-heading>h1::after, .heading>h1::after , .heading-student>h1::after{
     content: '';
     height: 5px;
     width: 85px;
+  }
+
+  .committee-list{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .student-list{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
   }
 
 }
