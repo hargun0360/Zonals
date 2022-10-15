@@ -6,8 +6,9 @@ const QR = () => {
         <div>
             <div >
                 <QRCode
-                    size={280}
-                    style={{ height: "300px", Width: "300px" }}
+                className="qr"
+                    size={230}
+                    
                     value={"https://www.google.com/"}
                     level={'L'}
                      />

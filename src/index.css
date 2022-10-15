@@ -146,8 +146,10 @@ a:hover {
 .QR-Box {
   height: 280px;
   width: 280px;
-  background-color: #D9D9D9;
-
+  /* background-color: #D9D9D9; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Bg-image {
@@ -220,6 +222,11 @@ a:hover {
 
 .Main-Heading>p {
   padding: 15px 0px;
+}
+
+.qr{
+  height: 240px;
+  width: 240px;
 }
 
 
@@ -360,7 +367,7 @@ color: #212427;
   font-family: 'Gilroy';
 font-style: normal;
 font-weight: 500;
-font-size: 28px;
+font-size: 26px;
 line-height: 39px;
 
 letter-spacing: 0.0075em;
@@ -571,7 +578,7 @@ color: #212427;
 
   .committee-list{
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 35px;
   }
   .student-list{
@@ -587,6 +594,16 @@ color: #212427;
   .listed-data>ul>li {
     font-size: 13px;
     font-weight: 700;
+  }
+
+  .QR-Box {
+    height: 240px;
+    width: 240px;
+  }
+
+  .qr{
+    height: 230px;
+    width: 230px;
   }
 
   .category-story{
