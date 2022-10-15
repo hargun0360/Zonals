@@ -408,6 +408,24 @@ color: #212427;
     list-style: none;
   }
 
+  a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1rem;
+  }
+  
+  a:hover {
+    cursor: pointer;
+    padding-bottom: 16px;
+    font-weight: 900;
+  }
+  
+  .active{
+    padding-bottom: 16px;
+    font-weight: 900;
+  }
+  
+
   .navbar1>div {
     padding-right: 0px;
   }
