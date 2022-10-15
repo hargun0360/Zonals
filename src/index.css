@@ -537,6 +537,16 @@ color: #212427;
     top: -32px;
   }
 
+  .Bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.514)), url('./Home/mobilebg.svg');
+    /* background-image: url('./Home/tenis.svg'); */
+    background-repeat: no-repeat;
+    background-size: content;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+  }
+
 }
 
 @media screen and (max-width:440px) {
@@ -590,7 +600,22 @@ color: #212427;
     font-size: 20px;
     line-height: 35px;
   }
+  .Bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.514)), url('./Home/mobilebg.svg');
+    /* background-image: url('./Home/tenis.svg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+  }
 
+  .Main-Heading{
+    position: absolute;
+    top: 3%;
+    width: 100vw;
+    left: 4%;
+  }
 }
 
 @media screen and (max-width:400px) {
