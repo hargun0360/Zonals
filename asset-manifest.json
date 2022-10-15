@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Zonals/static/css/main.3e03e715.css",
+    "main.css": "/Zonals/static/css/main.625a1ae1.css",
     "main.js": "/Zonals/static/js/main.661c83b3.js",
     "static/media/mobilebg.svg": "/Zonals/static/media/mobilebg.aa70ff1c412d590b31c0.svg",
     "static/media/tenis.svg": "/Zonals/static/media/tenis.f2777859e43762c53d5f.svg",
@@ -10,11 +10,11 @@
     "static/media/star.svg": "/Zonals/static/media/star.2bc744d4f74f7d0cf1b406eb42d2581c.svg",
     "static/media/logo.svg": "/Zonals/static/media/logo.6487d97afafa4ee24351287dd7174592.svg",
     "index.html": "/Zonals/index.html",
-    "main.3e03e715.css.map": "/Zonals/static/css/main.3e03e715.css.map",
+    "main.625a1ae1.css.map": "/Zonals/static/css/main.625a1ae1.css.map",
     "main.661c83b3.js.map": "/Zonals/static/js/main.661c83b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e03e715.css",
+    "static/css/main.625a1ae1.css",
     "static/js/main.661c83b3.js"
   ]
 }
