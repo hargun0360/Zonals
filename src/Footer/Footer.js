@@ -3,6 +3,7 @@ import MapsHomeWorkIcon from '@mui/icons-material/MapsHomeWork';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import WebIcon from '@mui/icons-material/Web';
+import QR from '../QR/QR';
 
 const Footer = () => {
     return (<>
@@ -18,7 +19,7 @@ const Footer = () => {
                             <MapsHomeWorkIcon fontSize='large'></MapsHomeWorkIcon>
                         </div>  
                         <div className='text'>
-                            <a href="https://www.akgec.ac.in/" target={"_blank"} ><p>AJAY KUMAR GARG ENGINEERING COLLEGE</p></a>
+                            <a href="https://www.akgec.ac.in/" target={"_self"} ><p>AJAY KUMAR GARG ENGINEERING COLLEGE</p></a>
                         </div>
                     </div>
                     <div className='college-address'>
@@ -43,7 +44,7 @@ const Footer = () => {
                             <WebIcon fontSize='large'></WebIcon>
                         </div>
                         <div className='text'>
-                            <a href = "https://www.akgec.ac.in/life-akgec/events/sports-events/tt-tournament/" target={"_blank"} ><p>
+                            <a href = "https://www.akgec.ac.in/life-akgec/events/sports-events/tt-tournament/" target={"_self"} ><p>
                                 <span style={{cursor:"pointer"}} >www.akgec.in/tabletennistournament</span>
                             </p></a>
                         </div>
@@ -52,7 +53,7 @@ const Footer = () => {
             </div>
             <div className='QR-50'>
                 <div className='QR-Box'>
-                    
+                    <QR />
                 </div>
             </div>
         </div>

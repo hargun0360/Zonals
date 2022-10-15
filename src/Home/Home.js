@@ -34,9 +34,9 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='btn-pos'>
-                                <div className='register'>
+                            <a href="https://www.google.com/" target={"_self"}><div className='register'>
                                     Register
-                                </div>
+                                </div></a>
                             </div>
                         </div>
 
