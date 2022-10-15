@@ -341,6 +341,7 @@ a:hover {
   display: flex;
   justify-content:space-around ;
   align-items: center;
+  margin-left: -4.5%;
   flex-wrap: wrap;
 }
 
@@ -380,6 +381,9 @@ color: #212427;
 @media screen and (max-width:980px) {
   .about-us-heading{
     margin-left: 86px;
+  }
+  .organiser{
+    margin-left: 0px;
   }
 }
 
