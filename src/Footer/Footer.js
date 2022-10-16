@@ -55,6 +55,7 @@ const Footer = () => {
                 <div className='QR-Box'>
                     <QR />
                 </div>
+                <div className='scan-text'>Scan QR to Register</div>
             </div>
         </div>
 

@@ -141,6 +141,11 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding: 15px 0px;
+  flex-direction: column;
+}
+
+.scan-text{
+  color: white;
 }
 
 .QR-Box {
@@ -585,7 +590,7 @@ color: #212427;
   }
 
   .contact-us {
-    padding-left: 2%;
+    margin-left: 9px;
   }
 
   .about-us-story {
@@ -594,6 +599,16 @@ color: #212427;
 
   .about-us-heading>h1 , .category-heading>h1, .heading>h1 , .heading-student>h1 {
     font-size: 36px;
+    margin-left: 2px;
+  }
+  .category-heading>h1, .heading>h1 , .heading-student>h1 {
+    font-size: 36px;
+    margin-left: 35px;
+  }
+
+  .heading>h1 , .heading-student>h1 {
+    font-size: 32px;
+    margin-left: 0px;
   }
 
   .heading>h1 , .heading-student>h1 {
@@ -604,9 +619,10 @@ color: #212427;
     font-size: 32px;
   }
 
-  .organizing-committee,.student{
-      width: 100vw;
-  }
+  .organizing-committee, .student {
+    width: 100vw;
+    margin-left: 35px;
+}
 
   .about {
     align-items: normal;
@@ -657,6 +673,12 @@ color: #212427;
 .image {
   height: 64px;
   width: 116px;
+}
+.text{
+  font-size: 14px;
+}
+.about-us-heading {
+  margin-left: 36px;
 }
 }
 
