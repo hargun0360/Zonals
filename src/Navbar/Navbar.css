@@ -1,0 +1,66 @@
+.navbar1 {
+    background: #2E435C;
+    margin-bottom: -2.5%;
+    height: 10%;
+    position: fixed;
+    padding: 5px 0 5px 0;
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .navbar1>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-right: 30px;
+  }
+  
+  .hamburger1 {
+    display: none;
+    background: transparent;
+    border: none;
+    color: white;
+    float: right;
+    cursor: pointer;
+  }
+  
+  .register {
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  
+  .mobile-links>a ,.links > a {
+    color: white !important;
+    text-decoration: none;
+    padding: 1rem ;  
+  }
+  
+  .mobile-links>a:hover,.links>a:hover {
+    cursor: pointer;
+    font-weight: 700;
+    padding-right: 10px;
+  }
+  
+  .links> .active {
+    padding-bottom: 12px;
+   
+    font-weight: 900;
+  }
+  
+  .mobile-links {
+    visibility: hidden;
+  }

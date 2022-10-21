@@ -2,9 +2,16 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import star from "./star.svg"
-import about from "./about.svg"
 import category from "./categories.svg"
 import Footer from "../Footer/Footer"
+import About from './About/About';
+import Eligibility from './Eligibility/Eligibility';
+import Notes from './Notes/Notes';
+import Prizes from './Prizes/Prizes';
+import Fee from './Fee/Fee';
+import Schedule from './Schedule/Schedule';
+import Last from './Last/Last';
+
 const Home = () => {
     return (<>
         <div className='Home'>
@@ -29,12 +36,12 @@ const Home = () => {
                                 </div>
                                 <div className='text'>
                                     <h1>
-                                        18 - 20 November 2022
+                                        19 -20 November 2022
                                     </h1>
                                 </div>
                             </div>
                             <div className='btn-pos'>
-                            <a href="https://www.google.com/" target={"_self"}><div className='register'>
+                                <a href="https://www.google.com/" target={"_self"}><div className='register'>
                                     Register
                                 </div></a>
                             </div>
@@ -49,73 +56,15 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className='content'>
-            <div className='about' id="about">
-                <div className='about-us-heading'>
-                    <h1>About Us</h1>
-                </div>
-                <div className='Main-about-data'>
-                    <div className='about-us-story'>
-                        <p>The mission of the IDEA Lab is to help students' ideas and encourage them to think beyond the ordinary, for the betterment of mankind. To make IDEA Lab a place where no idea is considered out of bounds so that there is no pulling back. To encourage students and teachers alike to use their technical skills The mission of the IDEA Lab is to help students' ideas and encourage them to think beyond the ordinary, for the betterment of mankind. To make IDEA Lab a place where no idea is considered out </p>
-                    </div>
-                    <div className='about-us-image'>
-                        <img src={about}></img>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className='category-content' id="categories">
-            <div className='about'>
-                <div className='category-heading'>
-                    <h1>Categories</h1>
-                </div>
-                <div className='Main-category-data'>
-                    <div className='category-image'>
-                        <img src={category}></img>
-                    </div>
-                    <div className='category-story'>
-                        <div className='listed-data'>
-                            <ul>
-                                <li>
-                                    Men’s Single
-                                </li>
-                                <li>
-                                    Women’s Single
-                                </li>
-                                <li>
-                                    Men’s Team
-                                </li>
-                                <li>
-                                    Women’s Team
-                                </li>
-                                <li>
-                                    Girls (&lt; 18 years)
-                                </li>
-                            </ul>
-                        </div>
-                        <div className='listed-data'>
-                            <ul>
-                                <li>
-                                    Boys (&lt; 18 years)
-                                </li>
-                                <li>
-                                    Youth Boys (&lt; 21 years)
-                                </li>
-                                <li>
-                                    Youth Girls (&lt; 21 years)
-                                </li>
-                                <li>
-                                    Veteran Men (&gt; 40 years)
-                                </li>
-                                <li>
-                                    Veteran Women (&gt; 40 years)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        <About />
+        <Eligibility />
+        <Prizes />
+        <Schedule />
+        <Fee />
+        <Last />
+        <Notes />
+
         <div className='organiser' id="organizers">
             <div className='organizing-committee'>
                 <div className='heading'>
@@ -124,13 +73,34 @@ const Home = () => {
                 <div className='committee-list'>
                     <ul>
                         <li>
-                            Prof. I.P. Sharma
+                            <div className='arrange'>
+                                <div className='student-name' style={{fontFamily: "Gilroy"}}>
+                                    Prof. B.K. Sharma
+                                </div>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
+                                    (9711004358)
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            Mr. Rajeev Sharma
+                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
+                                <div>
+                                    SH. Rajeev Sharma
+                                </div>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
+                                    (9818085060)
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            Mr. Pratap Singh
+                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
+                                <div>
+                                    MR. Pratap Singh
+                                </div>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
+                                    (9213709657)
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -143,38 +113,38 @@ const Home = () => {
                     <ul>
                         <li>
                             <div className='arrange'>
-                                <div className='student-name'>
-                                    Umang Gupta
+                                <div className='student-name' style={{fontFamily: "Gilroy"}}>
+                                    Eeshank krashwal
                                 </div>
                                 <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
-                                    (8077121060)
+                                    (7500872215)
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div className='arrange'>
+                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
                                 <div>
-                                    Srijan Singh
+                                    Yash Saxena
                                 </div>
                                 <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
-                                    (7258869864)
+                                    (8448161159)
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div className='arrange'>
+                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
                                 <div>
-                                    Abhiroop Tomar
+                                    Srijan Mishra
                                 </div>
                                 <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
-                                    (981078229)
+                                    (8318802408)
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div className='arrange'>
+                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
                                 <div>
-                                    Palak Tyagi
+                                    Somya Goel
                                 </div>
                                 <div>
                                 </div>

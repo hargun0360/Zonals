@@ -5,7 +5,7 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import logo from './logo.svg'
 import {Link} from 'react-scroll'
 import {motion} from 'framer-motion'
-
+import "./Navbar.css"
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
     const animateFrom = {opacity: 0,y: -40}
@@ -21,7 +21,10 @@ const Navbar = () => {
                 {<div className='links'>
                     <Link activeClass="active" to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
                     <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>About Us</Link>
-                    <Link to="categories" spy={true} smooth={true} offset={-100} duration={500}>Categories</Link>
+                    <Link to="eligibility" spy={true} smooth={true} offset={-100} duration={500}>Eligibility</Link>
+                    <Link to="prize" spy={true} smooth={true} offset={-100} duration={500}>Prizes</Link>
+                    <Link to="fee" spy={true} smooth={true} offset={-150} duration={500}>Entry Fee</Link>
+                    <Link to="notes" spy={true} smooth={true} offset={-150} duration={500}>Notes</Link>
                     <Link to="organizers" spy={true} smooth={true} offset={-100} duration={500}>Organizers</Link>
                     <Link to="contact-us" spy={true} smooth={true} offset={-150} duration={500}>Contact Us</Link>
                 </div>}
@@ -29,7 +32,10 @@ const Navbar = () => {
                 {isOpen && <div className='mobile-links'>
                 <Link activeClass="active" to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
                     <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>About Us</Link>
-                    <Link to="categories" spy={true} smooth={true} offset={-100} duration={500}>Categories</Link>
+                    <Link to="eligibility" spy={true} smooth={true} offset={-100} duration={500}>Eligibility</Link>
+                    <Link to="prize" spy={true} smooth={true} offset={-100} duration={500}>Prizes</Link>
+                    <Link to="fee" spy={true} smooth={true} offset={-150} duration={500}>Entry Fee</Link>
+                    <Link to="notes" spy={true} smooth={true} offset={-150} duration={500}>Notes</Link>
                     <Link to="organizers" spy={true} smooth={true} offset={-100} duration={500}>Organizers</Link>
                     <Link to="contact-us" spy={true} smooth={true} offset={-150} duration={500}>Contact Us</Link>
                 </div>}

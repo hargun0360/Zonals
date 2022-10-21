@@ -19,72 +19,8 @@ code {
     monospace;
 }
 
-.navbar1 {
-  background: #2E435C;
-  margin-bottom: -2.5%;
-  height: 10%;
-  position: fixed;
-  padding: 5px 0 5px 0;
-  width: 100vw;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1;
-}
 
-.navbar1>div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: center;
-  padding-right: 30px;
-}
-
-.hamburger1 {
-  display: none;
-  background: transparent;
-  border: none;
-  color: white;
-  float: right;
-  cursor: pointer;
-}
-
-.register {
-  height: 40px;
-  width: 100px;
-  background-color: white;
-  color: black;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 900;
-  cursor: pointer;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  padding: 1rem;
-}
-
-a:hover {
-  cursor: pointer;
-  padding-bottom: 12px;
-  font-weight: 900;
-}
-
-.active{
-  padding-bottom: 12px;
-  font-weight: 900;
-}
-
-.mobile-links {
-  visibility: hidden;
-}
-
+/* ------------------------------------------------------------------------------------- */
 .Footer {
   width: 100vw;
   height: fit-content;
@@ -99,7 +35,7 @@ a:hover {
   height: fit-content;
   padding: 15px 0px;
   width: 100vw;
-  padding-left: 6%;
+  padding-left: 2.5%;
   font-family: 'Gilroy';
 }
 
@@ -144,8 +80,9 @@ a:hover {
   flex-direction: column;
 }
 
-.scan-text{
+.scan-text {
   color: white;
+  font-family: 'Gilroy';
 }
 
 .QR-Box {
@@ -157,6 +94,8 @@ a:hover {
   align-items: center;
 }
 
+/* -------------------------------------------------------------------------------------- */
+
 .Bg-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.514)), url('./Home/tenis.svg');
   /* background-image: url('./Home/tenis.svg'); */
@@ -167,7 +106,7 @@ a:hover {
   overflow: hidden;
 }
 
-.college-name > .text {
+.college-name>.text {
   cursor: pointer;
 }
 
@@ -229,7 +168,7 @@ a:hover {
   padding: 15px 0px;
 }
 
-.qr{
+.qr {
   height: 240px;
   width: 240px;
 }
@@ -246,13 +185,7 @@ a:hover {
   font-size: 40px;
 }
 
-.content {
-  width: 100vw;
-  height: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .about {
   display: flex;
@@ -261,143 +194,110 @@ a:hover {
   align-items: flex-start;
 }
 
-.Main-about-data {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.about-us-story>p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 29px;
-  margin: 0;
-  padding: 0;
-
-}
 
 .about-us-heading>h1,
 .category-heading>h1,
 .heading>h1,
-.heading-student>h1 {
+.heading-student>h1,
+.eligibility-heading>h1 {
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 800;
-  font-size: 42px;
+  font-size: 38px;
   line-height: 60px;
+  padding-bottom: 2%;
+}
+.about-us-heading,
+.category-heading,
+.heading,
+.heading-student,
+.eligibility-heading {
+  
+  padding: 1% 0%;
 }
 
 .about-us-heading>h1::after,
 .category-heading>h1::after,
 .heading>h1::after,
-.heading-student>h1::after {
+.heading-student>h1::after,
+.eligibility-heading>h1::after {
   content: '';
   display: block;
   position: absolute;
-  height: 8px;
+  height: 6px;
   width: 85px;
   border: 1px solid transparent;
   border-radius: 8px;
   background: linear-gradient(to right, #113963, #B1261F);
 }
 
-.about-us-story {
-  width: 50vw;
-  order: 1;
-}
-
-.about-us-image {
-  order: 2;
-}
-
-.category-story {
+.organiser {
+  width: 90vw;
+  height: fit-content;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding-left: 2.7%;
 }
 
-.listed-data {
+.arrange {
+  display: flex;
+  align-items: center;
+}
+
+.student-list {
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 48px;
+  font-size: 26px;
+  line-height: 39px;
+  /* identical to box height */
+
   letter-spacing: 0.0075em;
-  color: #0D1116;
+
+  color: #212427;
 
 }
 
-.Main-category-data {
-  display: flex;
-  width: 100vw;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.category-heading > h1{
-  margin-left: 86px;
-}
-
-.organiser{
-  width: 100vw;
-  height: fit-content;
-  display: flex;
-  justify-content:space-around ;
-  align-items: center;
-  margin-left: -4.5%;
-  flex-wrap: wrap;
-}
-
-.arrange{
-  display: flex;
-  align-items: center;
-}
-
-.student-list{
+.committee-list {
   font-family: 'Gilroy';
-font-style: normal;
-font-weight: 500;
-font-size: 26px;
-line-height: 39px;
-/* identical to box height */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 52px;
 
-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
 
-color: #212427;
-  
+  color: #212427;
 }
 
-.committee-list{
+.criteria {
+  font-size: 24px;
+  line-height: 43px;
   font-family: 'Gilroy';
-font-style: normal;
-font-weight: 500;
-font-size: 26px;
-line-height: 52px;
-
-letter-spacing: 0.0075em;
-
-color: #212427;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.0075em;
+  color: #212427;
 }
 
 
 
 @media screen and (max-width:980px) {
-  .about-us-heading{
-    margin-left: 86px;
-  }
-  .organiser{
+
+  .organiser {
     margin-left: 0px;
   }
 }
 
 @media screen and (max-width:820px) {
 
-  .category-heading > h1{
+  .category-heading>h1 {
     margin-left: 0px;
   }
-  .about-us-heading{
+
+  .about-us-heading {
     margin-left: 0px;
   }
 
@@ -429,18 +329,18 @@ color: #212427;
     text-decoration: none;
     padding-bottom: 1rem;
   }
-  
+
   a:hover {
     cursor: pointer;
     padding-bottom: 16px;
     font-weight: 900;
   }
-  
-  .active{
+
+  .active {
     padding-bottom: 16px;
     font-weight: 900;
   }
-  
+
 
   .navbar1>div {
     padding-right: 0px;
@@ -492,6 +392,7 @@ color: #212427;
   .content {
     flex-direction: column;
   }
+
   .Bg-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.514)), url('./Home/mobilebg.svg');
     /* background-image: url('./Home/tenis.svg'); */
@@ -511,16 +412,16 @@ color: #212427;
     width: fit-content;
     position: absolute;
     top: 26%;
-}
+  }
 
-.prize {
-  width: 50vw;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: fit-content;
-  height: 48vh;
-}
+  .prize {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: fit-content;
+    height: 48vh;
+  }
 
 }
 
@@ -556,7 +457,8 @@ color: #212427;
     width: 35vw;
   }
 
-  .about-us-image>img , .category-image >img{
+  .about-us-image>img,
+  .category-image>img {
     height: 310px;
     width: 310px;
   }
@@ -565,7 +467,7 @@ color: #212427;
     font-size: 16px;
   }
 
-  .category-story{
+  .category-story {
     position: relative;
     top: -32px;
   }
@@ -580,70 +482,81 @@ color: #212427;
     overflow: hidden;
   }
 
+  
+
 }
 
 @media screen and (max-width:440px) {
+
+  .criteria{
+    font-size: 17px;
+    line-height: 38px;
+  }
 
   .logo-image {
     width: 180px;
     height: 100%;
   }
 
-  .contact-us {
-    margin-left: 9px;
-  }
+
 
   .about-us-story {
     width: 80vw;
   }
 
-  .about-us-heading>h1 , .category-heading>h1, .heading>h1 , .heading-student>h1 {
+  .about-us-heading>h1,
+  .category-heading>h1,
+  .heading>h1,
+  .heading-student>h1 {
     font-size: 36px;
     margin-left: 2px;
   }
-  .category-heading>h1, .heading>h1 , .heading-student>h1 {
-    font-size: 36px;
-    margin-left: 35px;
-  }
 
-  .heading>h1 , .heading-student>h1 {
-    font-size: 32px;
-    margin-left: 0px;
+  .about-us-heading>h1,
+  .eligibility-heading>h1 {
+    font-size: 27px;
   }
-
-  .heading>h1 , .heading-student>h1 {
+  .eligibility-heading>h1 {
     font-size: 30px;
   }
 
+  .heading>h1,
   .heading-student>h1 {
-    font-size: 32px;
+    font-size: 26px;
+    margin-left: 0px;
   }
 
-  .organizing-committee, .student {
+  .organizing-committee,
+  .student {
     width: 100vw;
-    margin-left: 35px;
-}
+  }
 
   .about {
     align-items: normal;
   }
 
-  .about-us-heading>h1::after, .category-heading>h1::after, .heading>h1::after , .heading-student>h1::after{
+  .about-us-heading>h1::after,
+  .category-heading>h1::after,
+  .heading>h1::after,
+  .heading-student>h1::after,
+  .eligibility-heading>h1::after {
     content: '';
     height: 5px;
-    width: 85px;
+    width: 60px;
   }
 
-  .committee-list{
+  .committee-list {
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
   }
-  .student-list{
+
+  .student-list {
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
   }
+
   .Bg-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.514)), url('./Home/mobilebg.svg');
     /* background-image: url('./Home/tenis.svg'); */
@@ -654,7 +567,7 @@ color: #212427;
     overflow: hidden;
   }
 
-  .Main-Heading{
+  .Main-Heading {
     position: absolute;
     top: 10%;
     width: 100vw;
@@ -665,21 +578,29 @@ color: #212427;
   .image>img {
     height: 93px;
     width: 95px;
-}
-.prize{
-  height: 33vh;
-}
+  }
 
-.image {
-  height: 64px;
-  width: 116px;
-}
-.text{
-  font-size: 14px;
-}
-.about-us-heading {
-  margin-left: 36px;
-}
+  .prize {
+    height: 33vh;
+  }
+
+  .image {
+    height: 64px;
+    width: 116px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .paragraph{
+    font-size: 20px;
+  }
+
+  .contact-heading>h1 {
+    font-size: 26px;
+  }
+
 }
 
 @media screen and (max-width:400px) {
@@ -689,17 +610,29 @@ color: #212427;
     font-weight: 700;
   }
 
+  .committee-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  .student-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+  }
+
   .QR-Box {
     height: 240px;
     width: 240px;
   }
 
-  .qr{
+  .qr {
     height: 230px;
     width: 230px;
   }
 
-  .category-story{
+  .category-story {
     position: relative;
     top: -32px;
   }
@@ -712,6 +645,7 @@ color: #212427;
     height: 425px;
     width: 145px;
   }
+
   .listed-data>ul>li {
     font-size: 11px;
     font-weight: 700;

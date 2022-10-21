@@ -1,0 +1,68 @@
+.Main-about-data , .about-us-story {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: fit-content;
+  }
+   .about-us-story {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .para{
+    display: flex;
+    justify-content: space-around;
+    width: 93vw;
+  }
+  
+  .para>p {
+    font-weight: 400;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 29px;
+    margin: 0;
+    padding: 0;
+    padding-right: 2%;
+  
+  }
+
+  .about-us-story {
+    width: 93vw;
+  }
+
+  
+  
+  .about-us-image {
+    padding-left: 15px;
+  }
+  
+  @media screen and (max-width:1000px)  {
+    .para{
+        flex-wrap: wrap;
+    }
+    .pa{
+        order: 2;
+      }
+
+      .para>p {
+      padding-top: 2%;
+      }
+
+      .about-us-image {
+        order: 1;
+        width: fit-content;
+        height: fit-content;
+      }
+  }
+
+  @media screen and (max-width:560px)  {
+    .para>p {
+        font-size: 15px;
+        line-height: 23px;
+        padding-left: 2%;
+        padding-top: 0%;
+      }
+  }
