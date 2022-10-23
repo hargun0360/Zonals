@@ -109,7 +109,7 @@ const Fee = () => {
                         Under 21 yrs.
                         </td>
                         <td>
-                        Born on/after 1.1.1997
+                        Born on/after 1.1.2000
                         </td>
                         <td>
                         <b>300.00</b>
@@ -126,7 +126,7 @@ const Fee = () => {
                         Under 21 yrs.
                         </td>
                         <td>
-                        Born on/after 1.1.1997
+                        Born on/after 1.1.2000
                         </td>
                         <td>
                         <b>300.00</b>
@@ -143,7 +143,7 @@ const Fee = () => {
                         Under 18 yrs.
                         </td>
                         <td>
-                        Born on/after 1.1.2000
+                        Born on/after 1.1.2003
                         </td>
                         <td>
                         <b>300.00</b>
@@ -160,7 +160,7 @@ const Fee = () => {
                         Under 18 yrs.
                         </td>
                         <td>
-                        Born on/after 1.1.2000
+                        Born on/after 1.1.2003
                         </td>
                         <td>
                         <b>300.00</b>
