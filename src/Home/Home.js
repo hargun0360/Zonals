@@ -28,7 +28,7 @@ const Home = () => {
                                 - TABLE TENNIS TOURNAMENT
                             </h1>
                             <p>
-                                Under the aegis of GATT Affiliated to UPTA
+                                Under the aegis of GDTTCA Affiliated to UPTTA
                             </p>
                             <div className='dates'>
                                 <div className='icon'>
