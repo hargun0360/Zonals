@@ -11,7 +11,7 @@ const Notes = () => {
                 <ul>
                     <li>
                         8 ranked players of State in Men/Women/Youth Boys and Girls/ Junior Boys and Girls shall be
-                        provided free boarding &amp;lodging (in the hostel). Other players will be provided free
+                        provided free boarding &amp; lodging (in the hostel). Other players will be provided free
                         accommodation in the hostel if it is booked in advance and is available.
                     </li>
                     <li>
@@ -19,10 +19,10 @@ const Notes = () => {
                         participants for individual events.
                     </li>
                     <li>
-                        Each team shall consist of not more than three players.
+                        Each team should consist of not more than three players.
                     </li>
                     <li>
-                        For Women Team Events, there shall be a minimum of two players and maximum 3 players,2
+                        For Women Team Events, there shall be a minimum of two players and maximum 3 players, 2
                         singles and 2 reverse singles with one doubles match will be played. Doubles matches can be
                         played by any of the team members.
                     </li>

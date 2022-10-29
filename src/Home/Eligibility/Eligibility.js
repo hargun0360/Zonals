@@ -18,7 +18,7 @@ const Eligibility = () => {
                         Organizations (College/Schools).
                     </li>
                     <li>
-                        All Boys and Girls Schools.
+                        Any Boys and Girls of Schools.
                     </li>
                     <li>
                         Entry for Individual events opens to Men &amp; Women team members and their extra players.

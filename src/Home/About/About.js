@@ -18,7 +18,7 @@ const About = () => {
                         events. A huge amount is kept as the prize money.
                         Last Year the tournament had top eight State ranked Table Tennis players and 21 teams with a
                         total of 180 participants from the Cities of <b>Allahabad, Lucknow, Moradabad, Meerut, Agra, Noida
-                        and Ghaziabad,</b> besides enthusiastic response from the neighboring schools and colleges.</p>
+                        and Ghaziabad,</b> besides enthusiastic response from the neighbouring schools and colleges.</p>
                     <div className='about-us-image'>
                         <img src={about}></img>
                     </div>

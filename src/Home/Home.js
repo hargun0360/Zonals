@@ -36,7 +36,7 @@ const Home = () => {
                                 </div>
                                 <div className='text'>
                                     <h1>
-                                        19 -20 November 2022
+                                        19-20 November 2022
                                     </h1>
                                 </div>
                             </div>
