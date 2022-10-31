@@ -1,6 +1,7 @@
 import React from 'react'
 import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Prizes.css"
 const Prizes = () => {
     return (<>
 
@@ -28,16 +29,16 @@ const Prizes = () => {
                             Women
                         </th>
                         <th>
-                            Youth Boys
+                        Boys(U-19)
                         </th>
                         <th>
-                            Youth Girls
+                        Girls(U-19)
                         </th>
                         <th>
-                            Junior Boys
+                        Boys(U-17)
                         </th>
                         <th>
-                            Junior Girls
+                        Girls(U-17)
                         </th>
                         <th>
                             Total(in Rs.)
@@ -50,22 +51,22 @@ const Prizes = () => {
                             <b>Winner</b>
                         </td>
                         <td>
-                            6000
+                            8000
+                        </td>
+                        <td>
+                            8000
                         </td>
                         <td>
                             6000
                         </td>
                         <td>
-                            5000
+                            6000
                         </td>
                         <td>
-                            5000
+                            4000
                         </td>
                         <td>
-                            3000
-                        </td>
-                        <td>
-                            3000
+                            4000
                         </td>
                         <td>
                             3000
@@ -74,7 +75,7 @@ const Prizes = () => {
                             3000
                         </td>
                         <td>
-                            <b>34000</b>
+                            <b>42000</b>
                         </td>
                     </tr>
                     <tr>
@@ -82,22 +83,22 @@ const Prizes = () => {
                             <b>Runner Up</b>
                         </td>
                         <td>
-                            4000
+                            6000
+                        </td>
+                        <td>
+                            6000
                         </td>
                         <td>
                             4000
                         </td>
                         <td>
-                            3000
+                            4000
                         </td>
                         <td>
-                            3000
+                            2500
                         </td>
                         <td>
-                            2000
-                        </td>
-                        <td>
-                            2000
+                            2500
                         </td>
                         <td>
                             1500
@@ -106,7 +107,7 @@ const Prizes = () => {
                             1500
                         </td>
                         <td>
-                            <b>21000</b>
+                            <b>28000</b>
                         </td>
                     </tr>
                     <tr>
@@ -114,10 +115,16 @@ const Prizes = () => {
                             <b>Semi Finalist 1</b>
                         </td>
                         <td>
-                            1500
+                            3000
                         </td>
                         <td>
-                            1500
+                            3000
+                        </td>
+                        <td>
+                            2000
+                        </td>
+                        <td>
+                            2000
                         </td>
                         <td>
                             1500
@@ -132,13 +139,7 @@ const Prizes = () => {
                             1000
                         </td>
                         <td>
-                            1000
-                        </td>
-                        <td>
-                            1000
-                        </td>
-                        <td>
-                            <b>10000</b>
+                            <b>15000</b>
                         </td>
                     </tr>
                     <tr>
@@ -146,10 +147,16 @@ const Prizes = () => {
                             <b>Semi Finalist 2</b>
                         </td>
                         <td>
-                            1500
+                            3000
                         </td>
                         <td>
-                            1500
+                            3000
+                        </td>
+                        <td>
+                            2000
+                        </td>
+                        <td>
+                            2000
                         </td>
                         <td>
                             1500
@@ -164,13 +171,7 @@ const Prizes = () => {
                             1000
                         </td>
                         <td>
-                            1000
-                        </td>
-                        <td>
-                            1000
-                        </td>
-                        <td>
-                            <b>10000</b>
+                            <b>15000</b>
                         </td>
                     </tr>
                     <tr>
@@ -178,36 +179,39 @@ const Prizes = () => {
                             <b>Total</b>
                         </td>
                         <td>
-                            13000
+                            20000
                         </td>
                         <td>
-                            13000
+                            20000
                         </td>
                         <td>
-                            11000
+                            14000
                         </td>
                         <td>
-                            11000
+                            14000
                         </td>
                         <td>
-                            7000
+                            9500
                         </td>
                         <td>
-                            7000
-                        </td>
-                        <td>
-                            6500
+                            9500
                         </td>
                         <td>
                             6500
                         </td>
                         <td>
-                            <b>75000</b>
+                            6500
+                        </td>
+                        <td>
+                            <b>100000</b>
                         </td>
                     </tr>
                 </tbody>
             </Table>
-
+            <div>
+                <p className='pa'>Prizes may be reduced for less than 12 entries in any event.</p>
+            
+            </div>
         </div>
 
 

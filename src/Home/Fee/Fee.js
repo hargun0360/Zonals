@@ -13,55 +13,55 @@ const Fee = () => {
                 <thead>
                     <tr>
                         <th>
-                        S.No.
+                            S.No.
                         </th>
                         <th>
-                        Category
+                            Category
                         </th>
                         <th>
-                        Age
+                            Age
                         </th>
                         <th>
-                        Born on/after
+                            Born After
                         </th>
                         <th>
-                        Fee(in Rs.)
+                            Fee(in Rs.)
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>
-                        1.
+                            1.
                         </td>
                         <td>
-                        Men Team
+                            Men Team
                         </td>
                         <td>
                             --
                         </td>
                         <td>
-                           --
+                            --
                         </td>
                         <td>
-                        <b>600.00</b>
+                            <b>700.00</b>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                           2.
+                            2.
                         </td>
                         <td>
-                        Women Team
-                        </td>
-                        <td>
-                            --
+                            Women Team
                         </td>
                         <td>
                             --
                         </td>
                         <td>
-                        <b>600.00</b>
+                            --
+                        </td>
+                        <td>
+                            <b>700.00</b>
                         </td>
                     </tr>
                     <tr>
@@ -69,16 +69,16 @@ const Fee = () => {
                             3.
                         </td>
                         <td>
-                        Men
-                        </td>
-                        <td>
-                           --
+                            Men
                         </td>
                         <td>
                             --
                         </td>
                         <td>
-                        <b>300.00</b>
+                            --
+                        </td>
+                        <td>
+                            <b>400.00</b>
                         </td>
                     </tr>
                     <tr>
@@ -86,16 +86,16 @@ const Fee = () => {
                             4.
                         </td>
                         <td>
-                        Women
+                            Women
                         </td>
                         <td>
-                        --
+                            --
                         </td>
                         <td>
-                           --
+                            --
                         </td>
                         <td>
-                        <b>300.00</b>
+                            <b>400.00</b>
                         </td>
                     </tr>
                     <tr>
@@ -103,16 +103,16 @@ const Fee = () => {
                             5.
                         </td>
                         <td>
-                        Youth Boys  
+                            Boys
                         </td>
                         <td>
-                        Under 21 yrs.
+                            Under 19 yrs.
                         </td>
                         <td>
-                        Born on/after 1.1.2000
+                            Born on after 1.1.2004
                         </td>
                         <td>
-                        <b>300.00</b>
+                            <b>400.00</b>
                         </td>
                     </tr>
                     <tr>
@@ -120,16 +120,16 @@ const Fee = () => {
                             6.
                         </td>
                         <td>
-                        Youth Girls
+                            Girls
                         </td>
                         <td>
-                        Under 21 yrs.
+                            Under 19 yrs.
                         </td>
                         <td>
-                        Born on/after 1.1.2000
+                            Born on after 1.1.2004
                         </td>
                         <td>
-                        <b>300.00</b>
+                            <b>400.00</b>
                         </td>
                     </tr>
                     <tr>
@@ -137,16 +137,16 @@ const Fee = () => {
                             7.
                         </td>
                         <td>
-                        Boys
+                            Boys
                         </td>
                         <td>
-                        Under 18 yrs.
+                            Under 17 yrs.
                         </td>
                         <td>
-                        Born on/after 1.1.2003
+                            Born on after 1.1.2006
                         </td>
                         <td>
-                        <b>300.00</b>
+                            <b>400.00</b>
                         </td>
                     </tr>
                     <tr>
@@ -154,16 +154,33 @@ const Fee = () => {
                             8.
                         </td>
                         <td>
-                        Girls
+                            Girls
                         </td>
                         <td>
-                        Under 18 yrs.
+                            Under 17 yrs.
                         </td>
                         <td>
-                        Born on/after 1.1.2003
+                            Born on after 1.1.2006
                         </td>
                         <td>
-                        <b>300.00</b>
+                            <b>400.00</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            9.
+                        </td>
+                        <td>
+                            Veteran Men & Women
+                        </td>
+                        <td>
+                            Above 40 Years
+                        </td>
+                        <td>
+                            --
+                        </td>
+                        <td>
+                            <b>400.00</b>
                         </td>
                     </tr>
                 </tbody>

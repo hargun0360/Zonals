@@ -10,7 +10,7 @@ const Last = () => {
                 </div>
                 <div className="paragraph">
                     <p>
-                        Entries will be closed on <b>20th November 2022.</b>
+                        Entries will be closed on <b>15<sup>th</sup> November 2022.</b>
                     </p>
                 </div>
             </div>

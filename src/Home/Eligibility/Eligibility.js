@@ -15,7 +15,7 @@ const Eligibility = () => {
                         Any Graduate/ Post Graduate College.
                     </li>
                     <li>
-                        Organizations (College/Schools).
+                    Organizations (Govt./Semi Govt./Banks)
                     </li>
                     <li>
                         Any Boys and Girls of Schools.
@@ -28,7 +28,7 @@ const Eligibility = () => {
                         TTFI/UPTTA.
                     </li>
                     <li>
-                        All entries restricted to State UP.
+                    Commencement of Particular Event will depend on number of Entries.
                     </li>
                 </ul>
             </div>

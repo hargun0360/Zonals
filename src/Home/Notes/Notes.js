@@ -10,31 +10,31 @@ const Notes = () => {
             <div className='criteria'>
                 <ul>
                     <li>
-                        8 ranked players of State in Men/Women/Youth Boys and Girls/ Junior Boys and Girls shall be
+                        Top 8 ranked players of State in Men/Women/Youth Boys and Girls/ Junior Boys and Girls shall be
                         provided free boarding &amp; lodging (in the hostel). Other players will be provided free
-                        accommodation in the hostel if it is booked in advance and is available.
+                        accommodation and meals in the hostel depending on the availability of rooms in the Hostel.
                     </li>
                     <li>
                         Each Institute/Organisation may send one or two teams per event. There is no limit of
                         participants for individual events.
                     </li>
                     <li>
-                        Each team should consist of not more than three players.
+                    The tournament will be played on knock out basis.
                     </li>
                     <li>
-                        For Women Team Events, there shall be a minimum of two players and maximum 3 players, 2
-                        singles and 2 reverse singles with one doubles match will be played. Doubles matches can be
-                        played by any of the team members.
+                    For Mens ,team shall consist of not more than four players and minimum 3 players.
                     </li>
                     <li>
-                        The tournament will be conducted as per TTFI rules.
+                    For Women Team Events, there shall be a minimum of two players and maximum 3 players, 2 singles and 2 reverse singles
+with one doubles match will be played. Doubles matches can be played by any of the team members.
+
                     </li>
                     <li>
-                        There will be three players in the team and they will draw for choice of ABC and XYZ playing
-                        order &amp; the pattern of play will be as under
+                    The tournament will be conducted as per TTFI rules.
                     </li>
                     <li>
-                        1) A v/s X   &ensp;  &ensp;  2) B v/s Y  &ensp;  &ensp; 3) C v/s Z  &ensp;  &ensp; 4) A v/s Y  &ensp;  &ensp; 5) B v/s X
+                    <p>For Mens Team ,Team captains will draw for choice of ABC and XYZ playing order & the pattern of play will be as under</p>
+                      <p>  1) A v/s X   &ensp;  &ensp;  2) B v/s Y  &ensp;  &ensp; 3) C v/s Z  &ensp;  &ensp; 4) A v/s Y  &ensp;  &ensp; 5) B v/s X</p>
                     </li>
                     <li>
                         The decision of the tournament Committee will be final in all the matters.

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-import star from "./star.svg"
+import star from "./star1.svg"
 import category from "./categories.svg"
 import Footer from "../Footer/Footer"
 import About from './About/About';
@@ -28,7 +28,7 @@ const Home = () => {
                                 - TABLE TENNIS TOURNAMENT
                             </h1>
                             <p>
-                                Under the aegis of GDTTCA Affiliated to UPTTA
+                                Under the Aegis of GDDTC(A), Affiliated to UPTTA
                             </p>
                             <div className='dates'>
                                 <div className='icon'>
@@ -40,7 +40,7 @@ const Home = () => {
                                     </h1>
                                 </div>
                             </div>
-                            <div className='btn-pos'>
+                            <div className='btn-pos py-2'>
                                 <a href="https://www.google.com/" target={"_self"}><div className='register'>
                                     Register
                                 </div></a>
@@ -66,91 +66,88 @@ const Home = () => {
         <Notes />
 
         <div className='organiser' id="organizers">
+            <div className='heading'>
+                <h1>Entry fee and forms will be sent to undersigned</h1>
+            </div>
             <div className='organizing-committee'>
-                <div className='heading'>
-                    <h1>Organizing Committee</h1>
-                </div>
+
                 <div className='committee-list'>
-                    <ul>
-                        <li>
-                            <div className='arrange'>
-                                <div className='student-name' style={{fontFamily: "Gilroy"}}>
-                                    Prof. B.K. Sharma
-                                </div>
-                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
-                                    (9711004358)
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
-                                <div>
-                                    SH. Rajeev Sharma
-                                </div>
-                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
-                                    (9818085060)
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
-                                <div>
-                                    MR. Pratap Singh
-                                </div>
-                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
-                                    (9213709657)
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+
+
+                    <div className='arrange'>
+                        
+                          <b>  Mr. Pratap Singh (Sports Officer)</b>
+                        
+                    </div>
+
+
+                    <div className='arrange' >
+                        <div>
+                            <p style={{ margin: "0", padding: "0" }}>A.K.G. Engineering College, NH-24, Delhi-Hapur ByPass Road,</p>
+                            <p style={{ margin: "0", padding: "0" }}> <b>Add:</b> 64 SF, Ashiana Greens Society
+                                Adhyatmik Nagar, Ghaziabad </p>
+                        </div>
+                    </div>
+
+
+                    <div className='arrange' >
+                        <div>
+                            <b>Ph.</b> 8744052891 to 94, 7290034976 7290034978
+                        </div>
+
+                    </div>
+                    <div className='arrange' >
+                        <div>
+                            <b>Mob. </b>9213709657
+                        </div>
+
+                    </div>
+                    <div className='arrange' >
+                        <div>
+                            <b>Email:</b> sports@akgec.ac.in
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
+            
             <div className='student'>
-                <div className='heading-student'>
-                    <h1>Student Convenors</h1>
-                </div>
+            <div className='gap'>
+                
+                </div>  
                 <div className='student-list'>
-                    <ul>
-                        <li>
-                            <div className='arrange'>
-                                <div className='student-name' style={{fontFamily: "Gilroy"}}>
-                                    Eeshank krashwal
-                                </div>
-                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
-                                    (7500872215)
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
-                                <div>
-                                    Yash Saxena
-                                </div>
-                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
-                                    (8448161159)
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
-                                <div>
-                                    Srijan Mishra
-                                </div>
-                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
-                                    (8318802408)
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
-                                <div>
-                                    Somya Goel
-                                </div>
-                                <div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+
+                <div className='arrange'>
+                        <div className='student-name'>
+                        <b>Sh. Rajeev Sharma (Organizing Secretary)</b>
+                        </div>
+                    </div>
+
+                   
+                    <div className='arrange' >
+                        <div>
+                            
+                            <p style={{margin:"0",padding:"0"}}> <b>Add:</b> 64 SF, Ashiana Greens Society </p>
+                                <p style={{margin:"0",padding:"0"}}>Indirapuram, Ghaziabad.</p>
+                        </div>
+                    </div>
+
+
+                    
+                    <div className='arrange' >
+                        <div>
+                            <b>Mob. </b>9818085060
+                        </div>
+
+                    </div>
+                    <div className='arrange' >
+                        <div>
+                            <b>Email:</b> rajeevsharma226@rediffmail.com
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
