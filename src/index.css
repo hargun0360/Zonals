@@ -688,6 +688,10 @@ a:hover {
     line-height: 38px;
   }
 
+  .arrange{
+    font-size: 17px;
+  }
+
   .logo-image {
     width: 180px;
     height: 100%;
