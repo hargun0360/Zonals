@@ -36,7 +36,7 @@ const Footer = () => {
                             <LocalPhoneIcon fontSize='large'></LocalPhoneIcon>
                         </div>
                         <div className='text'>
-                            <p>8744052891 TO 94, 7290034976</p>
+                            <p>8744052891 to 94, 7290034976</p>
                         </div>
                     </div>
                     <div className='site-link'>
