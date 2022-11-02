@@ -12,7 +12,10 @@ import Fee from './Fee/Fee';
 import Schedule from './Schedule/Schedule';
 import Last from './Last/Last';
 
+
 const Home = () => {
+
+    
     return (<>
         <div className='Home'>
             <Navbar />
@@ -28,7 +31,7 @@ const Home = () => {
                                 - TABLE TENNIS TOURNAMENT
                             </h1>
                             <p>
-                                Under the Aegis of GDDTC(A), Affiliated to UPTTA
+                                Under the Aegis of GATT, Affiliated to UPTTA
                             </p>
                             <div className='dates'>
                                 <div className='icon'>
@@ -83,9 +86,9 @@ const Home = () => {
 
                     <div className='arrange' >
                         <div>
-                            <p style={{ margin: "0", padding: "0" }}>A.K.G. Engineering College, NH-24, Delhi-Hapur ByPass Road,</p>
-                            <p style={{ margin: "0", padding: "0" }}> <b>Add:</b> 64 SF, Ashiana Greens Society
-                                Adhyatmik Nagar, Ghaziabad </p>
+                            <p style={{ margin: "0", padding: "0" }}><b>Add:</b> A.K.G. Engineering College,</p>
+                            <p style={{ margin: "0", padding: "0" }}> 
+                            NH-24, Delhi-Hapur ByPass Road, Ghaziabad </p>
                         </div>
                     </div>
 
@@ -126,10 +129,10 @@ const Home = () => {
 
                    
                     <div className='arrange' >
-                        <div>
-                            
-                            <p style={{margin:"0",padding:"0"}}> <b>Add:</b> 64 SF, Ashiana Greens Society </p>
-                                <p style={{margin:"0",padding:"0"}}>Indirapuram, Ghaziabad.</p>
+                    <div>
+                            <p style={{ margin: "0", padding: "0" }}><b>Add:</b> A.K.G. Engineering College,</p>
+                            <p style={{ margin: "0", padding: "0" }}> 
+                            NH-24, Delhi-Hapur ByPass Road, Ghaziabad </p>
                         </div>
                     </div>
 
