@@ -154,6 +154,95 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <div className='organiser' id="organizers">
+            <div className='organizing-committee'>
+                <div className='heading1'>
+                    <h1>Organizing Committee</h1>
+                </div>
+                <div className='committee-list1'>
+                    <ul>
+                        <li>
+                            <div className='arrange'>
+                                <div className='student-name' style={{fontFamily: "Gilroy"}}>
+                                    Prof. B.K. Sharma
+                                </div>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
+                                    (9711004358)
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
+                                <div>
+                                    SH. Rajeev Sharma
+                                </div>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
+                                    (9818085060)
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
+                                <div>
+                                    MR. Pratap Singh
+                                </div>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
+                                    (9213709657)
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div className='student'>
+                <div className='heading-student'>
+                    <h1>Student Convenors</h1>
+                </div>
+                <div className='student-list'>
+                    <ul>
+                        <li>
+                            <div className='arrange'>
+                                <div className='student-name' style={{fontFamily: "Gilroy"}}>
+                                Srijan Singh Bhanwag
+                                </div>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
+                                    (7286886864)
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
+                                <div>
+                                Abhiroop Tomar
+                                </div>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
+                                    (9810782291)
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
+                                <div>
+                                Umang Gupta
+                                </div>
+                                <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
+                                    (8077121060)
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className='arrange' style={{fontFamily: "Gilroy"}}>
+                                <div>
+                                    Palak Tyagi
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div>
             <Footer />
         </div>

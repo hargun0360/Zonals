@@ -299,7 +299,8 @@ a:hover {
 .category-heading,
 .heading,
 .heading-student,
-.eligibility-heading {
+.eligibility-heading,
+.heading1 {
   
   padding: 1% 0%;
 }
@@ -392,6 +393,60 @@ a:hover {
   letter-spacing: 0.0075em;
   color: #212427;
 }
+
+
+.heading1>h1 , .heading-student>h1{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 60px;
+  padding-bottom: 2%;
+}
+
+.heading1{
+  
+  padding: 1% 0%;
+}
+
+
+.heading1>h1::after , .heading-student>h1::after{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 6px;
+  width: 85px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: linear-gradient(to right, #113963, #B1261F);
+}
+
+.student-list {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  /* identical to box height */
+
+  letter-spacing: 0.0075em;
+
+  color: #212427;
+
+}
+
+.committee-list1 {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 52px;
+
+  letter-spacing: 0.0075em;
+
+  color: #212427;
+}
+
 
 @media screen and (max-width:1250px) {
   .heading>h1{
@@ -706,6 +761,37 @@ a:hover {
     width: 80vw;
   }
 
+  .heading1>h1,
+  .heading-student>h1 {
+    font-size: 36px;
+    margin-left: 2px;
+  }
+
+  .heading1>h1,
+  .heading-student>h1 {
+    font-size: 26px;
+    margin-left: 0px;
+  }
+
+  .heading1>h1::after,
+  .heading-student>h1::after{
+    content: '';
+    height: 5px;
+    width: 60px;
+  }
+
+  .committee-list1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .student-list {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
   .about-us-heading>h1,
   .category-heading>h1,
   .heading>h1,
@@ -824,6 +910,11 @@ a:hover {
   }
 
   .committee-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+  }
+  .committee-list1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 35px;
