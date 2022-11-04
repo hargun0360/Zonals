@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.672aa353.css",
-    "main.js": "/static/js/main.0bbb5822.js",
-    "static/media/mobilebg.svg": "/static/media/mobilebg.aa70ff1c412d590b31c0.svg",
-    "static/media/tenis.svg": "/static/media/tenis.f2777859e43762c53d5f.svg",
-    "static/media/categories.svg": "/static/media/categories.3d1a0a113e5b32642f338dd228c7ea33.svg",
-    "static/media/image1.jpg": "/static/media/image1.eeea9c19f0f84b64149a.jpg",
-    "static/media/image2.jpg": "/static/media/image2.06d498ef8fca9d0dc027.jpg",
-    "static/media/image3.jpg": "/static/media/image3.ec541cc1e1bc03358e98.jpg",
-    "static/media/about.svg": "/static/media/about.c621e838174b525ec7286d13b71619e3.svg",
-    "static/media/gilory.ttf": "/static/media/gilory.fa652e766b6a85a1f9cb.ttf",
-    "static/media/star1.svg": "/static/media/star1.c4cf48339aac6adad006b81f070e954c.svg",
-    "static/media/logo.svg": "/static/media/logo.6487d97afafa4ee24351287dd7174592.svg",
-    "index.html": "/index.html",
-    "main.672aa353.css.map": "/static/css/main.672aa353.css.map",
-    "main.0bbb5822.js.map": "/static/js/main.0bbb5822.js.map"
+    "main.css": "/Zonals/static/css/main.d317e217.css",
+    "main.js": "/Zonals/static/js/main.8342a2a9.js",
+    "static/media/mobilebg.svg": "/Zonals/static/media/mobilebg.aa70ff1c412d590b31c0.svg",
+    "static/media/tenis.svg": "/Zonals/static/media/tenis.f2777859e43762c53d5f.svg",
+    "static/media/categories.svg": "/Zonals/static/media/categories.3d1a0a113e5b32642f338dd228c7ea33.svg",
+    "static/media/image1.jpg": "/Zonals/static/media/image1.eeea9c19f0f84b64149a.jpg",
+    "static/media/image2.jpg": "/Zonals/static/media/image2.06d498ef8fca9d0dc027.jpg",
+    "static/media/image3.jpg": "/Zonals/static/media/image3.ec541cc1e1bc03358e98.jpg",
+    "static/media/about.svg": "/Zonals/static/media/about.c621e838174b525ec7286d13b71619e3.svg",
+    "static/media/gilory.ttf": "/Zonals/static/media/gilory.fa652e766b6a85a1f9cb.ttf",
+    "static/media/star1.svg": "/Zonals/static/media/star1.c4cf48339aac6adad006b81f070e954c.svg",
+    "static/media/logo.svg": "/Zonals/static/media/logo.6487d97afafa4ee24351287dd7174592.svg",
+    "index.html": "/Zonals/index.html",
+    "main.d317e217.css.map": "/Zonals/static/css/main.d317e217.css.map",
+    "main.8342a2a9.js.map": "/Zonals/static/js/main.8342a2a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.672aa353.css",
-    "static/js/main.0bbb5822.js"
+    "static/css/main.d317e217.css",
+    "static/js/main.8342a2a9.js"
   ]
 }
