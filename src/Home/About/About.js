@@ -23,9 +23,9 @@ const About = () => {
                 <div className="para">
                     <p className='pa'>The 24<sup>th</sup> annual Ajay Kumar Garg Memorial Table Tennis
                         Tournament is to be conducted on <b>19-20 November 2022</b> at Ajay Kumar Garg Engineering
-                        College in association with GDDTC(A)- Affiliated with UPTTA. This tournament is state level which
+                        College in association with GATT- Affiliated with UPTTA. This tournament is state level which
                         is held every year for all professional institutions and schools of the state. Various teams mark
-                        their participation in 8 different categories for men and women separately in individual and team
+                        their participation in 10 different categories for men and women separately in individual and team
                         events. A huge amount is kept as the prize money.
                         Last Year the tournament had top eight State ranked Table Tennis players and 21 teams with a
                         total of 180 participants from the Cities of <b>Allahabad, Lucknow, Moradabad, Meerut, Agra, Noida

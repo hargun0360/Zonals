@@ -28,7 +28,7 @@ const Home = () => {
                                 24<sup>th</sup>  AJAY KUMAR GARG MEMORIAL
                             </h1>
                             <h1>
-                                - TABLE TENNIS TOURNAMENT
+                                TABLE TENNIS TOURNAMENT
                             </h1>
                             <p>
                                 Under the Aegis of GATT, Affiliated to UPTTA
@@ -164,10 +164,10 @@ const Home = () => {
                         <li>
                             <div className='arrange'>
                                 <div className='student-name' style={{fontFamily: "Gilroy"}}>
-                                    Prof. B.K. Sharma
+                                    Prof. I.P Sharma
                                 </div>
                                 <div style={{ paddingLeft: "5px", fontFamily: "Gilroy", fontWeight: "400", fontSize: "17px", lineHeight: "24px", paddingTop: "4px" }}>
-                                    (9711004358)
+                                    (9650370337)
                                 </div>
                             </div>
                         </li>
