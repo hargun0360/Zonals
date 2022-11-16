@@ -20,7 +20,7 @@ const Navbar = () => {
                 
                 {<div className='links'>
                     <Link activeClass="active" to="home" spy={true} smooth={true} offset={-50} duration={200}>Home</Link>
-                    <Link to="about" spy={true} smooth={true} offset={-100} duration={200}>About Us</Link>
+                    <Link to="about" spy={true} smooth={true} offset={0} duration={200}>About Us</Link>
                     <Link to="eligibility" spy={true} smooth={true} offset={-100} duration={200}>Eligibility</Link>
                     <Link to="prize" spy={true} smooth={true} offset={-100} duration={200}>Prizes</Link>
                     <Link to="fee" spy={true} smooth={true} offset={-100} duration={200}>Entry Fee</Link>

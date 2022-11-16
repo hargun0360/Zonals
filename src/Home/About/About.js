@@ -37,7 +37,7 @@ const About = () => {
     return (
         <div className='Main-about-data'>
             <div className='about-us-story'>
-                <div id='about' className='about-us-heading'>
+                <div  className='about-us-heading'>
                     <h1>About Us</h1>
                 </div>
                 <div className="para">
