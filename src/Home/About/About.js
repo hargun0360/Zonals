@@ -2,9 +2,19 @@ import React from 'react'
 import about from "../about.svg"
 import "./About.css"
 import SimpleImageSlider from "react-simple-image-slider";
-import image1 from './image1.jpg'
-import image2 from './image2.jpg'
-import image3 from './image3.jpg'
+import image1 from '../Images/tenis1.jfif'
+import image2 from '../Images/tenis2.jfif'
+import image3 from '../Images/tenis3.jfif'
+import image4 from '../Images/tenis4.jfif'
+import image5 from '../Images/tenis5.jfif'
+import image6 from '../Images/tenis6.jfif'
+import image7 from '../Images/tenis7.jfif'
+import image8 from '../Images/tenis8.jfif'
+import image9 from '../Images/tenis9.jfif'
+import image10 from '../Images/tenis10.jfif'
+import image11 from '../Images/tenis11.jfif'
+import image12 from '../Images/tenis12.jfif'
+import image13 from '../Images/tenis13.jfif'
 
 const About = () => {
 
@@ -12,6 +22,16 @@ const About = () => {
         { url: image1 },
         { url: image2 },
         { url: image3 },
+        { url: image4 },
+        { url: image5 },
+        { url: image6 },
+        { url: image7 },
+        { url: image8 },
+        { url: image9 },
+        { url: image10 },
+        { url: image11 },
+        { url: image12 },
+        { url: image13 },
       ];
 
     return (

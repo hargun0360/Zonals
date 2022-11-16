@@ -11,7 +11,8 @@ import Prizes from './Prizes/Prizes';
 import Fee from './Fee/Fee';
 import Schedule from './Schedule/Schedule';
 import Last from './Last/Last';
-
+import Video from 'react-responsive-video'
+import file from './Images/file.mp4'
 
 const Home = () => {
 
@@ -43,11 +44,11 @@ const Home = () => {
                                     </h1>
                                 </div>
                             </div>
-                            <div className='btn-pos py-2'>
+                            {/* <div className='btn-pos py-2'>
                                 <a href="https://www.google.com/" target={"_self"}><div className='register'>
                                     Register
                                 </div></a>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>
@@ -58,6 +59,12 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div className='py-4 px-2'>
+        <Video mp4={file} 
+            height={[300, 400, 480, 560].map(n => n + 'px')}
+            objectFit={`contain`}/>
         </div>
 
         <About />

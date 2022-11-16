@@ -58,13 +58,19 @@
     
     width: 400px !important;
     height: 300px !important;
+    
+    
+  }
+
+  .about-us-image > div > div >div:nth-child(2){
+    margin-left: -90.5px !important;
   }
   
   .about-us-image > div > div >div:nth-child(2) > button {
     
     width: 8px !important;
     height: 8px !important;
-    
+ 
   }
 
  
